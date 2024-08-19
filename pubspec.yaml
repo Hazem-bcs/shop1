@@ -1,0 +1,81 @@
+name: shop
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  flutter_svg: ^2.0.10+1
+  rive: ^0.13.6
+  flutter_slidable: ^3.1.0
+  shared_preferences: ^2.2.3
+  cached_network_image: ^3.3.1
+  image_picker: ^1.1.1
+  flutter_otp_text_field: ^1.1.0+2
+  supabase_flutter: ^2.5.2
+  intl: ^0.19.0
+  add_to_cart_animation: ^2.0.3
+  shimmer: ^3.0.0
+  auto_animated: ^3.2.0
+  timeline_tile: ^2.0.0
+  lottie: ^3.0.0
+  carousel_slider: ^4.2.1
+  flutter_staggered_animations: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/animations/delivery.riv
+    - assets/animations/cart_loader.riv
+    - assets/animations/shop_drawer.riv
+    - assets/animations/no_order2.riv
+    - assets/animations/jps_select.json
+    - assets/animations/ship.json
+    - assets/animations/search_icon.riv
+    - assets/animations/pub.riv
+    - assets/animations/erorr.riv
+    - assets/animations/good.riv
+    - assets/animations/wait.riv
+    - assets/animations/search_loading.riv
+    - assets/animations/no_found_search.riv
+    - assets/
+    - assets/icons/
+    - assets/images/
+    - assets/images/profileTwo.jpg
+    - assets/icons/cartIcon.svg
+    - assets/icons/about-us.svg
+    - assets/icons/privacy.svg
+    - assets/icons/location.svg
+    - assets/icons/blood_delicious.svg
+    - assets/icons/blood_star.svg
+    - assets/icons/blood_like.svg
+    - assets/icons/heart_out_line.svg
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-Black.ttf
+        - asset: assets/fonts/Cairo-Bold.ttf
+        - asset: assets/fonts/Cairo-ExtraBold.ttf
+        - asset: assets/fonts/Cairo-ExtraLight.ttf
+        - asset: assets/fonts/Cairo-Light.ttf
+        - asset: assets/fonts/Cairo-Medium.ttf
+        - asset: assets/fonts/Cairo-Regular.ttf
+        - asset: assets/fonts/Cairo-SemiBold.ttf
